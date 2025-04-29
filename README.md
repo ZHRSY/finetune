@@ -34,6 +34,12 @@ pip install protobuf==3.20.3
 3. 模型下载
 需要去huggingface下载gemma-2-2b-it-bnb-4bit模型，由于GitHub文件上传限制，无法进行上传。
 
+## 模型运行
+执行命令
+```bash
+python train.py
+```
+
 ## 模型保存
 
 训练完成后,模型将自动保存在项目根目录下的`model`文件夹中。
